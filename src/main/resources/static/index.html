@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Image Service</title>
+</head>
+<body>
+    <h2>Hello! Let's upload image! </h2>
+
+    <form action="/image/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" /> <br/>
+        <label>
+            Customer id:
+            <input type="number" name="id" />
+        </label> <br/>
+        <button type="submit">UPLOAD</button>
+    </form>
+</body>
+</html>
